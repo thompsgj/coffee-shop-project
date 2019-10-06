@@ -1,5 +1,5 @@
 :root {
-  --mainBrown: #2d1ef1;
+  --mainBrown: #2d1e1f;
   --mainYellow: #ff9e09;
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
@@ -39,4 +39,13 @@ h6 {
   justify-content: center;
   background-position: center;
   background-size: cover;
+}
+
+.btn-yellow {
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+.btn-yellow:hover {
+  background: var(--mainYellow);
+  color: var(--mainBrown);
 }
